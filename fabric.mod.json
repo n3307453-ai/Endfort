@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cosmicsky",
+  "version": "${version}",
+  "name": "Cosmic Sky",
+  "description": "Dzień: Saturn. Noc: czarna dziura. End: Droga Mleczna. Bez Fabric API.",
+  "authors": ["you"],
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.cosmicsky.CosmicSkyMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25"
+  }
+}
